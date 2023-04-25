@@ -1,6 +1,8 @@
 package com.axcmsm.consumerservice;
 
 import com.axcmsm.ProducerService;
+import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
+import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -31,5 +33,10 @@ public class ConsumerServiceApplication {
         return new RestTemplate();
     }
 
+
+    @Bean
+    public MessageConverter jsonMessageConverter(){
+        return new Jackson2JsonMessageConverter();
+    }
 
 }
