@@ -11,10 +11,12 @@
         <module name="consumer-service" />
         <module name="feign-api" />
         <module name="gateway" />
+        <module name="es-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer-service" target="1.8" />
+      <module name="es-service" target="1.8" />
       <module name="eurekaServer" target="1.8" />
       <module name="feign-api" target="1.8" />
       <module name="gateway" target="1.8" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer-service" options="-parameters" />
+      <module name="es-service" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="producer-service" options="-parameters" />

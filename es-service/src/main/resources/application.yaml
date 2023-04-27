@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: root
+    password: passwd
+    url: jdbc:mysql://10.32.30.60:3306/axcmsm
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    addresses: 192.168.64.101
+    virtual-host: /
+    username: guest
+    password: guest
+
+
+
+
