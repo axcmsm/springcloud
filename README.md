@@ -38,9 +38,14 @@
 
 
 ### 异步通信
+- [**RabbitMQ-异步通信**](文档/2.异步通信/2.1.RabbitMQ-异步通信.md)
+- [**RabbitMQ-可靠性消息**](文档/2.异步通信/2.2.RabbitMQ-可靠性消息.md)
 
 ### 搜索
+- [**Elasticsearch**](文档/3.分布式搜索/3.1.Elasticsearch-分布式搜索.md)
+- [**ES-实践**](文档/3.分布式搜索/3.2.ES-实践.md)
 
 ### 缓存
+- [**Redis缓存**](https://github.com/axcmsm/redis_study/tree/main/%E6%96%87%E6%A1%A3)
 
 ### DevOps
